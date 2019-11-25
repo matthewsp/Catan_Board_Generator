@@ -1,0 +1,251 @@
+﻿@{ 
+    CatanBoardGenerator.Models.Board board = new CatanBoardGenerator.Models.Board();
+}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/content/main.css">
+  </head>
+  <body>
+      <ul id="hexGrid">
+          <li class="hex">
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexA">
+                  <div class="hexagon  @board.theHexes[0].terrain">
+                        @{ 
+                            if(board.theHexes[0].terrain != "Desert")
+                            {
+                                 <div class="circle">@board.theHexes[0].number</div>
+                            }
+                        }
+                      
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn"  id="HexB">
+                  <div class="hexagon @board.theHexes[1].terrain">
+                      @{
+                             if (board.theHexes[1].terrain != "Desert")
+                            {
+                             <div class="circle">@board.theHexes[1].number</div>
+                             }
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexC">
+                  <div class="hexagon @board.theHexes[2].terrain">
+                      @{
+        if (board.theHexes[2].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[2].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexD">
+                  <div class="hexagon  @board.theHexes[3].terrain">
+                      @{
+        if (board.theHexes[3].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[3].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexE">
+                  <div class="hexagon @board.theHexes[4].terrain">
+                      @{
+        if (board.theHexes[4].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[4].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexF">
+                  <div class="hexagon @board.theHexes[5].terrain">
+                      @{
+        if (board.theHexes[5].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[5].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexG">
+                  <div class="hexagon @board.theHexes[6].terrain">
+                      @{
+        if (board.theHexes[6].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[6].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexH">
+                  <div class="hexagon  @board.theHexes[7].terrain">
+                      @{
+        if (board.theHexes[7].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[7].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexI">
+                  <div class="hexagon  @board.theHexes[8].terrain">
+                      @{
+        if (board.theHexes[8].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[8].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexJ">
+                  <div class="hexagon  @board.theHexes[9].terrain">
+                      @{
+        if (board.theHexes[9].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[9].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexK">
+                  <div class="hexagon  @board.theHexes[10].terrain">
+                      @{
+        if (board.theHexes[10].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[10].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexM">
+                  <div class="hexagon  @board.theHexes[11].terrain">
+                      @{
+        if (board.theHexes[11].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[11].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn" id="HexN">
+                  <div class="hexagon @board.theHexes[12].terrain">
+                      @{
+        if (board.theHexes[12].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[12].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn">
+                  <div class="hexagon @board.theHexes[13].terrain">
+                      @{
+        if (board.theHexes[13].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[13].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn">
+                  <div class="hexagon @board.theHexes[14].terrain">
+                      @{
+        if (board.theHexes[14].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[14].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn">
+                  <div class="hexagon @board.theHexes[15].terrain">
+                      @{
+        if (board.theHexes[15].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[15].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+          </li>
+          <li class="hex">
+              <div class="hexIn">
+                  <div class="hexagon @board.theHexes[16].terrain">
+                      @{
+        if (board.theHexes[16].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[16].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn">
+                  <div class="hexagon @board.theHexes[17].terrain">
+                      @{
+        if (board.theHexes[17].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[17].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>
+          <li class="hex">
+              <div class="hexIn">
+                  <div class="hexagon @board.theHexes[18].terrain">
+                      @{
+        if (board.theHexes[18].terrain != "Desert")
+        {
+                  <div class="circle">@board.theHexes[18].number</div>
+}
+                      }
+                  </div>
+              </div>
+          </li>          
+      </ul>
+  </body>
+</html>
